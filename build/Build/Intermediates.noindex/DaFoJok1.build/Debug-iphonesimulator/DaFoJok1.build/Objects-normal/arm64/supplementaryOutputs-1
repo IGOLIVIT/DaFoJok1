@@ -1,0 +1,18 @@
+"/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Models/Card.swift":
+  dependencies: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/Card.d"
+  swift-dependencies: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/Card.swiftdeps"
+  diagnostics: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/Card.dia"
+  const-values: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/Card.swiftconstvalues"
+  object: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/Card.o"
+"/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Views/Games/PokerTrainerView.swift":
+  swift-dependencies: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerView.swiftdeps"
+  object: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerView.o"
+  dependencies: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerView.d"
+  diagnostics: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerView.dia"
+  const-values: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerView.swiftconstvalues"
+"/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/ViewModels/DeckCatchViewModel.swift":
+  object: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchViewModel.o"
+  dependencies: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchViewModel.d"
+  const-values: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchViewModel.swiftconstvalues"
+  swift-dependencies: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchViewModel.swiftdeps"
+  diagnostics: "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchViewModel.dia"

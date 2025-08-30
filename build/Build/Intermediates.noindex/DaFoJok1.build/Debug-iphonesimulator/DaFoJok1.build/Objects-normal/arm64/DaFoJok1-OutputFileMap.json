@@ -1,0 +1,188 @@
+{
+  "" : {
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DaFoJok1-master.dia",
+    "emit-module-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DaFoJok1-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DaFoJok1-master-emit-module.dia",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DaFoJok1-master.swiftdeps"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/ContentView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/DaFoJok1App.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DaFoJok1App.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DaFoJok1App.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DaFoJok1App.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DaFoJok1App.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DaFoJok1App.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DaFoJok1App.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DaFoJok1App.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DaFoJok1App~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Managers/DeckManager.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckManager.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckManager.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckManager.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckManager.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckManager.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckManager.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckManager.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckManager~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Managers/HapticsManager.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HapticsManager.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HapticsManager.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HapticsManager.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HapticsManager.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HapticsManager.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HapticsManager.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HapticsManager.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HapticsManager~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Managers/SoundManager.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SoundManager.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SoundManager.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SoundManager.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SoundManager.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SoundManager.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SoundManager.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SoundManager.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SoundManager~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Managers/UserDefaultsManager.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/UserDefaultsManager.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/UserDefaultsManager.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/UserDefaultsManager.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/UserDefaultsManager.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/UserDefaultsManager.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/UserDefaultsManager.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/UserDefaultsManager.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/UserDefaultsManager~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Models/Card.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/Card.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/Card.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/Card.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/Card.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/Card.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/Card.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/Card.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/Card~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Theme/AppTheme.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/AppTheme.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/AppTheme.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/AppTheme.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/AppTheme.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/AppTheme.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/AppTheme.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/AppTheme.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/AppTheme~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/ViewModels/DeckCatchViewModel.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchViewModel.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchViewModel.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchViewModel.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchViewModel.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchViewModel.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchViewModel.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchViewModel.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchViewModel~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/ViewModels/PokerTrainerViewModel.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerViewModel.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerViewModel.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerViewModel.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerViewModel.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerViewModel.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerViewModel.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerViewModel.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerViewModel~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Views/Components/CardView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/CardView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/CardView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/CardView.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/CardView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/CardView.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/CardView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/CardView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/CardView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Views/Games/DeckCatchView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchView.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchView.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/DeckCatchView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Views/Games/PokerTrainerView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerView.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerView.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/PokerTrainerView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Views/HelpView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HelpView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HelpView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HelpView.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HelpView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HelpView.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HelpView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HelpView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/HelpView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Views/MainMenuView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/MainMenuView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/MainMenuView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/MainMenuView.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/MainMenuView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/MainMenuView.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/MainMenuView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/MainMenuView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/MainMenuView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Views/OnboardingView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/OnboardingView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/OnboardingView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/OnboardingView.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/OnboardingView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/OnboardingView.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/OnboardingView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/OnboardingView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/OnboardingView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Views/SettingsView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DaFoJok1/build/Build/Intermediates.noindex/DaFoJok1.build/Debug-iphonesimulator/DaFoJok1.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

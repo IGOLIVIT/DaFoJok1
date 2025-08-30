@@ -1,0 +1,96 @@
+{
+  "source": "/Users/igor/Documents/Applications/DaFoJok1/DaFoJok1/Views/Games/DeckCatchView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Back",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Collected",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 62
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld/52",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "Time",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "Combo",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 89
+        }
+      },
+      {
+        "comment": "",
+        "key": "Deck Complete!",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "Game Over",
+        "location": {
+          "startingColumn": 74,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "🏆 New Record!",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Back to Menu",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 185
+        }
+      },
+      {
+        "comment": "",
+        "key": "Play Again",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 199
+        }
+      }
+    ]
+  },
+  "version": 1
+}
