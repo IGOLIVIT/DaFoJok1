@@ -64,15 +64,18 @@ struct DeckCatchView: View {
         VStack(spacing: AppLayout.paddingSmall) {
             // Top row: Record and game controls
             HStack {
-                // Best Record
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Best Record")
-                        .font(AppTypography.caption)
+                // Best Record - make it more compact
+                VStack(alignment: .leading, spacing: 1) {
+                    Text("Best")
+                        .font(.system(size: 11, weight: .medium))
                         .foregroundColor(AppColors.secondaryText)
                     Text(viewModel.bestRecordText)
-                        .font(AppTypography.caption)
+                        .font(.system(size: 11, weight: .medium))
                         .foregroundColor(AppColors.goldAccent)
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.8)
                 }
+                .frame(maxWidth: 80)
                 
                 Spacer()
                 
@@ -87,9 +90,9 @@ struct DeckCatchView: View {
                         }
                     }) {
                         Image(systemName: viewModel.gameState == .playing ? "pause.fill" : "play.fill")
-                            .font(.system(size: 16, weight: .semibold))
+                            .font(.system(size: 14, weight: .semibold))
                             .foregroundColor(AppColors.primaryText)
-                            .frame(width: 32, height: 32)
+                            .frame(width: 30, height: 30)
                             .background(AppColors.tableDark.opacity(0.8))
                             .cornerRadius(8)
                     }
@@ -100,54 +103,54 @@ struct DeckCatchView: View {
                         viewModel.restartGame()
                     }) {
                         Image(systemName: "arrow.clockwise")
-                            .font(.system(size: 16, weight: .semibold))
+                            .font(.system(size: 14, weight: .semibold))
                             .foregroundColor(AppColors.primaryText)
-                            .frame(width: 32, height: 32)
+                            .frame(width: 30, height: 30)
                             .background(AppColors.tableDark.opacity(0.8))
                             .cornerRadius(8)
                     }
                 }
             }
             
-            // Bottom row: Game stats
+            // Bottom row: Game stats - make more compact
             HStack {
                 // Collected count
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Collected")
-                        .font(AppTypography.caption)
+                VStack(alignment: .leading, spacing: 1) {
+                    Text("Cards")
+                        .font(.system(size: 11, weight: .medium))
                         .foregroundColor(AppColors.secondaryText)
                     Text("\(viewModel.collectedCount)/52")
-                        .font(AppTypography.bodyMedium)
+                        .font(.system(size: 14, weight: .semibold))
                         .foregroundColor(AppColors.successGreen)
                 }
                 
                 Spacer()
                 
                 // Timer
-                VStack(spacing: 2) {
+                VStack(spacing: 1) {
                     Text("Time")
-                        .font(AppTypography.caption)
+                        .font(.system(size: 11, weight: .medium))
                         .foregroundColor(AppColors.secondaryText)
                     Text(viewModel.formattedTime)
-                        .font(AppTypography.bodyMedium)
+                        .font(.system(size: 14, weight: .semibold))
                         .foregroundColor(AppColors.primaryText)
                 }
                 
                 Spacer()
                 
                 // Combo
-                VStack(alignment: .trailing, spacing: 2) {
+                VStack(alignment: .trailing, spacing: 1) {
                     Text("Combo")
-                        .font(AppTypography.caption)
+                        .font(.system(size: 11, weight: .medium))
                         .foregroundColor(AppColors.secondaryText)
                     Text("\(viewModel.comboCount)")
-                        .font(AppTypography.bodyMedium)
+                        .font(.system(size: 14, weight: .semibold))
                         .foregroundColor(viewModel.comboCount > 0 ? AppColors.warningAmber : AppColors.primaryText)
                 }
             }
         }
-        .padding(.horizontal, AppLayout.paddingLarge)
-        .padding(.vertical, AppLayout.paddingMedium)
+        .padding(.horizontal, AppLayout.paddingMedium)
+        .padding(.vertical, AppLayout.paddingSmall)
         .background(
             Rectangle()
                 .fill(AppColors.tableDark.opacity(0.8))

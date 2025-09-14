@@ -12,90 +12,93 @@ struct MainMenuView: View {
                 AppColors.tableGradient
                     .ignoresSafeArea()
                 
-                VStack(spacing: 40) {
-                    Spacer()
-                    
-                    // Header
-                    VStack(spacing: 10) {
-                        Text("CardForge")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                            .foregroundColor(AppColors.primaryText)
+                ScrollView {
+                    VStack(spacing: 40) {
+                        // Top spacing
+                        Spacer(minLength: 20)
                         
-                        Text("Poker Academy")
-                            .font(.title2)
-                            .foregroundColor(AppColors.secondaryText)
-                    }
-                    
-                    // Game buttons
-                    VStack(spacing: 20) {
-                        NavigationLink(destination: DeckCatchView()) {
-                            GameButton(
-                                title: "Deck Catch",
-                                description: "Catch falling cards to complete the deck",
-                                icon: "suit.club.fill"
-                            )
-                        }
-                        .buttonStyle(PlainButtonStyle())
-                        
-                        NavigationLink(destination: PokerTrainerView()) {
-                            GameButton(
-                                title: "Poker Trainer",
-                                description: "Learn poker hands and build streaks",
-                                icon: "brain.head.profile"
-                            )
-                        }
-                        .buttonStyle(PlainButtonStyle())
-                    }
-                    
-                    // Quick stats
-                    VStack(spacing: 8) {
-                        Text("Your Progress")
-                            .font(.headline)
-                            .foregroundColor(AppColors.primaryText)
-                        
-                        HStack(spacing: 20) {
-                            StatItem(
-                                title: "Best Streak",
-                                value: "\(userDefaults.pokerTrainerBestStreak)"
-                            )
+                        // Header
+                        VStack(spacing: 10) {
+                            Text("CardForge")
+                                .font(.largeTitle)
+                                .fontWeight(.bold)
+                                .foregroundColor(AppColors.primaryText)
                             
-                            StatItem(
-                                title: "Games Played",
-                                value: "\(userDefaults.totalSessions)"
-                            )
+                            Text("Poker Academy")
+                                .font(.title2)
+                                .foregroundColor(AppColors.secondaryText)
                         }
-                    }
-                    .padding()
-                    .background(AppColors.tableDark.opacity(0.6))
-                    .cornerRadius(12)
-                    
-                    Spacer()
-                    
-                    // Action buttons
-                    HStack(spacing: 20) {
-                        Button("Help") {
-                            showingHelp = true
-                        }
-                        .font(.title3)
-                        .foregroundColor(AppColors.primaryText)
-                        .padding()
-                        .background(AppColors.cardBackBurgundy.opacity(0.3))
-                        .cornerRadius(10)
+                        .padding(.top, 20)
                         
-                        Button("Settings") {
-                            showingSettings = true
+                        // Game buttons
+                        VStack(spacing: 20) {
+                            NavigationLink(destination: DeckCatchView()) {
+                                GameButton(
+                                    title: "Deck Catch",
+                                    description: "Catch falling cards to complete the deck",
+                                    icon: "suit.club.fill"
+                                )
+                            }
+                            .buttonStyle(PlainButtonStyle())
+                            
+                            NavigationLink(destination: PokerTrainerView()) {
+                                GameButton(
+                                    title: "Poker Trainer",
+                                    description: "Learn poker hands and build streaks",
+                                    icon: "brain.head.profile"
+                                )
+                            }
+                            .buttonStyle(PlainButtonStyle())
                         }
-                        .font(.title3)
-                        .foregroundColor(AppColors.primaryText)
+                        
+                        // Quick stats
+                        VStack(spacing: 8) {
+                            Text("Your Progress")
+                                .font(.headline)
+                                .foregroundColor(AppColors.primaryText)
+                            
+                            HStack(spacing: 20) {
+                                StatItem(
+                                    title: "Best Streak",
+                                    value: "\(userDefaults.pokerTrainerBestStreak)"
+                                )
+                                
+                                StatItem(
+                                    title: "Games Played",
+                                    value: "\(userDefaults.totalSessions)"
+                                )
+                            }
+                        }
                         .padding()
-                        .background(AppColors.cardBackBurgundy.opacity(0.3))
-                        .cornerRadius(10)
+                        .background(AppColors.tableDark.opacity(0.6))
+                        .cornerRadius(12)
+                        
+                        // Action buttons
+                        HStack(spacing: 20) {
+                            Button("Help") {
+                                showingHelp = true
+                            }
+                            .font(.title3)
+                            .foregroundColor(AppColors.primaryText)
+                            .padding()
+                            .background(AppColors.cardBackBurgundy.opacity(0.3))
+                            .cornerRadius(10)
+                            
+                            Button("Settings") {
+                                showingSettings = true
+                            }
+                            .font(.title3)
+                            .foregroundColor(AppColors.primaryText)
+                            .padding()
+                            .background(AppColors.cardBackBurgundy.opacity(0.3))
+                            .cornerRadius(10)
+                        }
+                        
+                        // Bottom spacing
+                        Spacer(minLength: 30)
                     }
-                    
-                    Spacer()
+                    .padding(.horizontal)
                 }
-                .padding()
             }
         }
         .navigationViewStyle(StackNavigationViewStyle())
@@ -120,24 +123,29 @@ struct GameButton: View {
     var body: some View {
         HStack {
             Image(systemName: icon)
-                .font(.title)
+                .font(.title2)
                 .foregroundColor(AppColors.goldAccent)
-                .frame(width: 40)
+                .frame(width: 36, height: 36)
             
             VStack(alignment: .leading, spacing: 4) {
                 Text(title)
-                    .font(.title2)
+                    .font(.title3)
                     .fontWeight(.semibold)
                     .foregroundColor(AppColors.primaryText)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.8)
                 
                 Text(description)
-                    .font(.body)
+                    .font(.callout)
                     .foregroundColor(AppColors.secondaryText)
+                    .lineLimit(2)
+                    .minimumScaleFactor(0.9)
             }
             
-            Spacer()
+            Spacer(minLength: 8)
             
             Image(systemName: "chevron.right")
+                .font(.system(size: 14, weight: .medium))
                 .foregroundColor(AppColors.goldAccent)
         }
         .padding()

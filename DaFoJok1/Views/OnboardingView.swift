@@ -42,71 +42,73 @@ struct OnboardingView: View {
                 AppColors.tableGradient
                     .ignoresSafeArea()
                 
-
-                VStack(spacing: 0) {
-                    // Skip button
-                    HStack {
-                        Spacer()
-                        Button("Skip") {
-                            completeOnboarding()
-                        }
-                        .font(AppTypography.buttonMedium)
-                        .foregroundColor(AppColors.secondaryText)
-                        .padding()
-                    }
-                    
-                    // Page content
-                    TabView(selection: $currentPage) {
-                        ForEach(0..<pages.count, id: \.self) { index in
-                            OnboardingPageView(
-                                page: pages[index],
-                                animateCards: animateCards,
-                                geometry: geometry
-                            )
-                            .tag(index)
-                        }
-                    }
-                    .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
-                    .animation(.easeInOut(duration: 0.5), value: currentPage)
-                    
-                    // Page indicator
-                    HStack(spacing: 8) {
-                        ForEach(0..<pages.count, id: \.self) { index in
-                            Circle()
-                                .fill(index == currentPage ? AppColors.goldAccent : AppColors.secondaryText)
-                                .frame(width: 10, height: 10)
-                                .scaleEffect(index == currentPage ? 1.2 : 1.0)
-                                .animation(.spring(response: 0.3), value: currentPage)
-                        }
-                    }
-                    .padding(.vertical, AppLayout.paddingLarge)
-                    
-                    // Action buttons
-                    VStack(spacing: AppLayout.paddingMedium) {
-                        if currentPage < pages.count - 1 {
-                            Button("Next") {
-                                withAnimation(.spring(response: 0.5, dampingFraction: 0.8)) {
-                                    currentPage += 1
-                                }
-                                HapticsManager.shared.lightImpact()
-                                SoundManager.shared.playTap()
-                            }
-                            .font(AppTypography.buttonLarge)
-                            .primaryButton()
-                            .scaleEffect(animateButton ? 1.05 : 1.0)
-                            .animation(.spring(response: 0.3, dampingFraction: 0.6).repeatForever(autoreverses: true), value: animateButton)
-                        } else {
-                            Button("Start Playing") {
+                ScrollView {
+                    VStack(spacing: 0) {
+                        // Skip button
+                        HStack {
+                            Spacer()
+                            Button("Skip") {
                                 completeOnboarding()
                             }
-                            .font(AppTypography.buttonLarge)
-                            .primaryButton()
-                            .scaleEffect(animateButton ? 1.05 : 1.0)
-                            .animation(.spring(response: 0.3, dampingFraction: 0.6).repeatForever(autoreverses: true), value: animateButton)
+                            .font(AppTypography.buttonMedium)
+                            .foregroundColor(AppColors.secondaryText)
+                            .padding()
                         }
+                        
+                        // Page content with minimum height for TabView
+                        TabView(selection: $currentPage) {
+                            ForEach(0..<pages.count, id: \.self) { index in
+                                OnboardingPageView(
+                                    page: pages[index],
+                                    animateCards: animateCards,
+                                    geometry: geometry
+                                )
+                                .tag(index)
+                            }
+                        }
+                        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
+                        .animation(.easeInOut(duration: 0.5), value: currentPage)
+                        .frame(minHeight: max(400, geometry.size.height * 0.6))
+                        
+                        // Page indicator
+                        HStack(spacing: 8) {
+                            ForEach(0..<pages.count, id: \.self) { index in
+                                Circle()
+                                    .fill(index == currentPage ? AppColors.goldAccent : AppColors.secondaryText)
+                                    .frame(width: 10, height: 10)
+                                    .scaleEffect(index == currentPage ? 1.2 : 1.0)
+                                    .animation(.spring(response: 0.3), value: currentPage)
+                            }
+                        }
+                        .padding(.vertical, AppLayout.paddingLarge)
+                        
+                        // Action buttons
+                        VStack(spacing: AppLayout.paddingMedium) {
+                            if currentPage < pages.count - 1 {
+                                Button("Next") {
+                                    withAnimation(.spring(response: 0.5, dampingFraction: 0.8)) {
+                                        currentPage += 1
+                                    }
+                                    HapticsManager.shared.lightImpact()
+                                    SoundManager.shared.playTap()
+                                }
+                                .font(AppTypography.buttonLarge)
+                                .primaryButton()
+                                .scaleEffect(animateButton ? 1.05 : 1.0)
+                                .animation(.spring(response: 0.3, dampingFraction: 0.6).repeatForever(autoreverses: true), value: animateButton)
+                            } else {
+                                Button("Start Playing") {
+                                    completeOnboarding()
+                                }
+                                .font(AppTypography.buttonLarge)
+                                .primaryButton()
+                                .scaleEffect(animateButton ? 1.05 : 1.0)
+                                .animation(.spring(response: 0.3, dampingFraction: 0.6).repeatForever(autoreverses: true), value: animateButton)
+                            }
+                        }
+                        .padding(.horizontal, AppLayout.paddingLarge)
+                        .padding(.bottom, AppLayout.paddingXLarge)
                     }
-                    .padding(.horizontal, AppLayout.paddingLarge)
-                    .padding(.bottom, AppLayout.paddingXLarge)
                 }
             }
         }

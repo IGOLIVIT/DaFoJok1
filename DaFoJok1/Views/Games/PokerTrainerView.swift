@@ -44,103 +44,113 @@ struct PokerTrainerView: View {
     
     // MARK: - Mode Selection View
     private var modeSelectionView: some View {
-        VStack(spacing: AppLayout.paddingLarge) {
-            // Header
-            VStack(spacing: AppLayout.paddingSmall) {
-                Text("Poker Rank Trainer")
-                    .font(AppTypography.largeTitle)
-                    .foregroundColor(AppColors.primaryText)
-                
-                Text("Choose your training mode")
-                    .font(AppTypography.callout)
-                    .foregroundColor(AppColors.secondaryText)
-            }
-            .padding(.top, AppLayout.paddingXLarge)
-            
-            Spacer()
-            
-            // Mode cards
-            VStack(spacing: AppLayout.paddingMedium) {
-                ModeCardView(
-                    title: "Quick Training",
-                    description: "Infinite rounds until you make a mistake",
-                    icon: "bolt.fill",
-                    color: AppColors.warningAmber
-                ) {
-                    viewModel.startGame(mode: .quickTraining)
-                    showingModeSelection = false
+        ScrollView {
+            VStack(spacing: AppLayout.paddingLarge) {
+                // Header
+                VStack(spacing: AppLayout.paddingSmall) {
+                    Text("Poker Rank Trainer")
+                        .font(AppTypography.largeTitle)
+                        .foregroundColor(AppColors.primaryText)
+                    
+                    Text("Choose your training mode")
+                        .font(AppTypography.callout)
+                        .foregroundColor(AppColors.secondaryText)
                 }
+                .padding(.top, AppLayout.paddingMedium)
                 
-                ModeCardView(
-                    title: "10-Round Session",
-                    description: "Answer 10 hands and get your final score",
-                    icon: "target",
-                    color: AppColors.successGreen
-                ) {
-                    viewModel.startGame(mode: .tenRounds)
-                    showingModeSelection = false
-                }
-            }
-            
-            Spacer()
-            
-            // Stats preview
-            VStack(alignment: .leading, spacing: AppLayout.paddingMedium) {
-                Text("Your Best")
-                    .font(AppTypography.subtitle)
-                    .foregroundColor(AppColors.primaryText)
-                
-                HStack {
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text("Best Streak")
-                            .font(AppTypography.caption)
-                            .foregroundColor(AppColors.secondaryText)
-                        Text("\(UserDefaultsManager.shared.pokerTrainerBestStreak)")
-                            .font(AppTypography.bodyMedium)
-                            .foregroundColor(AppColors.warningAmber)
+                // Mode cards
+                VStack(spacing: AppLayout.paddingMedium) {
+                    ModeCardView(
+                        title: "Quick Training",
+                        description: "Infinite rounds until you make a mistake",
+                        icon: "bolt.fill",
+                        color: AppColors.warningAmber
+                    ) {
+                        viewModel.startGame(mode: .quickTraining)
+                        showingModeSelection = false
                     }
                     
-                    Spacer()
-                    
-                    VStack(alignment: .trailing, spacing: 4) {
-                        Text("Accuracy")
-                            .font(AppTypography.caption)
-                            .foregroundColor(AppColors.secondaryText)
-                        Text(UserDefaultsManager.shared.formattedAccuracy(UserDefaultsManager.shared.pokerTrainerAccuracy))
-                            .font(AppTypography.bodyMedium)
-                            .foregroundColor(AppColors.successGreen)
+                    ModeCardView(
+                        title: "10-Round Session",
+                        description: "Answer 10 hands and get your final score",
+                        icon: "target",
+                        color: AppColors.successGreen
+                    ) {
+                        viewModel.startGame(mode: .tenRounds)
+                        showingModeSelection = false
                     }
                 }
+                
+                // Stats preview
+                VStack(alignment: .leading, spacing: AppLayout.paddingMedium) {
+                    Text("Your Best")
+                        .font(AppTypography.subtitle)
+                        .foregroundColor(AppColors.primaryText)
+                    
+                    HStack {
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text("Best Streak")
+                                .font(AppTypography.caption)
+                                .foregroundColor(AppColors.secondaryText)
+                            Text("\(UserDefaultsManager.shared.pokerTrainerBestStreak)")
+                                .font(AppTypography.bodyMedium)
+                                .foregroundColor(AppColors.warningAmber)
+                        }
+                        
+                        Spacer()
+                        
+                        VStack(alignment: .trailing, spacing: 4) {
+                            Text("Accuracy")
+                                .font(AppTypography.caption)
+                                .foregroundColor(AppColors.secondaryText)
+                            Text(UserDefaultsManager.shared.formattedAccuracy(UserDefaultsManager.shared.pokerTrainerAccuracy))
+                                .font(AppTypography.bodyMedium)
+                                .foregroundColor(AppColors.successGreen)
+                        }
+                    }
+                }
+                .padding(AppLayout.paddingMedium)
+                .background(
+                    RoundedRectangle(cornerRadius: AppLayout.cornerRadius)
+                        .fill(AppColors.tableDark.opacity(0.6))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: AppLayout.cornerRadius)
+                                .stroke(AppColors.goldAccent.opacity(0.3), lineWidth: 1)
+                        )
+                )
+                
+                // Bottom spacing
+                Spacer(minLength: 50)
             }
-            .padding(AppLayout.paddingMedium)
-            .background(
-                RoundedRectangle(cornerRadius: AppLayout.cornerRadius)
-                    .fill(AppColors.tableDark.opacity(0.6))
-                    .overlay(
-                        RoundedRectangle(cornerRadius: AppLayout.cornerRadius)
-                            .stroke(AppColors.goldAccent.opacity(0.3), lineWidth: 1)
-                    )
-            )
-            .padding(.bottom, AppLayout.paddingXLarge)
+            .padding(.horizontal, AppLayout.paddingLarge)
         }
-        .padding(.horizontal, AppLayout.paddingLarge)
     }
     
     // MARK: - Game View
     private var gameView: some View {
-        VStack(spacing: 0) {
-            // Header with stats
-            gameHeaderView
-            
-            // Cards display
-            cardsDisplayView
-            
-            // Answer options
-            answerOptionsView
-            
-            // Result display
-            if viewModel.showingResult {
-                resultView
+        ZStack {
+            VStack(spacing: 0) {
+                // Header with stats
+                gameHeaderView
+                
+                // Scrollable content
+                ScrollView {
+                    VStack(spacing: 0) {
+                        // Cards display
+                        cardsDisplayView
+                        
+                        // Answer options
+                        answerOptionsView
+                        
+                        // Result display
+                        if viewModel.showingResult {
+                            resultView
+                        }
+                        
+                        // Bottom spacing
+                        Spacer(minLength: 30)
+                    }
+                }
             }
             
             // Game over overlay
@@ -207,13 +217,22 @@ struct PokerTrainerView: View {
                 .font(AppTypography.subtitle)
                 .foregroundColor(AppColors.primaryText)
                 .padding(.top, AppLayout.paddingLarge)
+                .multilineTextAlignment(.center)
             
-            // Cards in hand
-            HStack(spacing: AppLayout.paddingSmall) {
-                ForEach(viewModel.currentHand, id: \.id) { card in
-                    AnimatedCardView(card: card, size: .medium)
+            // Cards in hand - make responsive to screen size
+            GeometryReader { geometry in
+                HStack(spacing: min(AppLayout.paddingSmall, geometry.size.width * 0.01)) {
+                    ForEach(viewModel.currentHand, id: \.id) { card in
+                        AnimatedCardView(
+                            card: card,
+                            size: geometry.size.width < 350 ? .small : .medium
+                        )
+                        .frame(maxWidth: geometry.size.width / 6)
+                    }
                 }
+                .frame(maxWidth: .infinity)
             }
+            .frame(height: 120) // Fixed height for cards area
             .padding(.horizontal, AppLayout.paddingMedium)
         }
     }
@@ -226,7 +245,14 @@ struct PokerTrainerView: View {
                 .foregroundColor(AppColors.secondaryText)
                 .padding(.top, AppLayout.paddingLarge)
             
-            LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: AppLayout.paddingSmall), count: 2), spacing: AppLayout.paddingSmall) {
+            // Use adaptive grid that switches to single column on very narrow screens
+            LazyVGrid(
+                columns: [
+                    GridItem(.flexible(), spacing: AppLayout.paddingSmall),
+                    GridItem(.flexible(), spacing: AppLayout.paddingSmall)
+                ],
+                spacing: AppLayout.paddingSmall
+            ) {
                 ForEach(PokerHandType.allCases, id: \.self) { handType in
                     Button(handType.rawValue) {
                         viewModel.selectAnswer(handType)
@@ -441,9 +467,9 @@ struct ModeCardView: View {
             HStack(spacing: AppLayout.paddingMedium) {
                 // Icon
                 Image(systemName: icon)
-                    .font(.system(size: 32, weight: .medium))
+                    .font(.system(size: 28, weight: .medium))
                     .foregroundColor(color)
-                    .frame(width: 50, height: 50)
+                    .frame(width: 44, height: 44)
                 
                 // Content
                 VStack(alignment: .leading, spacing: 4) {
@@ -451,18 +477,21 @@ struct ModeCardView: View {
                         .font(AppTypography.subtitle)
                         .foregroundColor(AppColors.primaryText)
                         .multilineTextAlignment(.leading)
+                        .lineLimit(2)
                     
                     Text(description)
                         .font(AppTypography.caption)
                         .foregroundColor(AppColors.secondaryText)
                         .multilineTextAlignment(.leading)
+                        .lineLimit(3)
+                        .minimumScaleFactor(0.9)
                 }
                 
-                Spacer()
+                Spacer(minLength: 8)
                 
                 // Arrow
                 Image(systemName: "chevron.right")
-                    .font(.system(size: 16, weight: .medium))
+                    .font(.system(size: 14, weight: .medium))
                     .foregroundColor(AppColors.goldAccent)
             }
             .padding(AppLayout.paddingMedium)
